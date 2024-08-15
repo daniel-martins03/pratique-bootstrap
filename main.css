@@ -1,0 +1,56 @@
+body{
+    font-family: New Amsterdam, sans-serif;
+}
+
+.navbar{
+    background-color: #35302f;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #7e6561;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand , .navbar-brand:hover, .nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+
+.section-title{
+    font-family: pacifico, cursive;
+}
+
+#sobre-a-loja,
+#faca-seu-orcamento{
+    background-color: #e7e6e5;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.social-links li{
+    display: inline;
+    list-style: none;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#faca-seu-orcamento button{
+    color: white;
+    background-color: #35302f;
+}
+
+#faca-seu-orcamento i{
+    color: #000000;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
